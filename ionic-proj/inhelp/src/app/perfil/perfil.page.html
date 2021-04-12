@@ -1,9 +1,32 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>perfil</ion-title>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Perfil</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <div class="area-foto">
+    <img class="foto-perfil"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmmI34OvnzbDs5DavVIVYpWoKnjULeKUwzig&usqp=CAU">
+    <h1>Marcia Silva</h1>
+  </div>
+  <ion-card>
+    <ion-card-content>
 
+      <ion-list lines="none">
+        <ion-item>
+          <ion-label position="stacked">E-mail</ion-label>
+          <ion-input value="marcia@email.com"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Telefone</ion-label>
+          <ion-input value="(21) 8741-8741"></ion-input>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

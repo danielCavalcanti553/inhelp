@@ -8,6 +8,7 @@ export class AppComponent {
   public appPages = [
     { title: 'Buscar', url: '/pesquisar-profissionais', icon: 'navigate' },
     { title: 'Perfil', url: '/perfil', icon: 'person' },
+    { title: 'Contratações', url: '/contratacoes-anteriores', icon: 'person' },
     { title: 'Sair', url: '/login', icon: 'arrow-back-circle' },
 
   ];
